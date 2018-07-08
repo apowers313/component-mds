@@ -1,0 +1,36 @@
+{
+  "name": "component-mds",
+  "version": "1.0.1",
+  "description": "A Component for fetching FIDO Metadata Service (MDS) data",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "docs": "jsdoc -c ./.jsdoc-conf.json"
+  },
+  "keywords": [],
+  "author": "Adam Powers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apowers313/component-mds"
+  },
+  "bugs": {
+    "url": "https://github.com/apowers313/component-mds/issues",
+    "email": "apowers@ato.ms"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fido2-helpers": "^1.7.0",
+    "gh-pages": "^0.12.0",
+    "ink-docstrap": "^1.3.0",
+    "istanbul": "^0.4.5",
+    "istanbul-coveralls": "^1.0.3",
+    "jsdoc": "^3.4.3",
+    "mocha": "^2.5.3",
+    "mockery": "^2.0.0",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "component-class": "^2.0.0"
+  }
+}
